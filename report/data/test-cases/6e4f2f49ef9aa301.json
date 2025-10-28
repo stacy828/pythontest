@@ -1,0 +1,58 @@
+{
+  "uid" : "6e4f2f49ef9aa301",
+  "name" : "test_get_qqname2[qqlist0]",
+  "fullName" : "testcases.test_get.test_get#test_get_qqname2",
+  "historyId" : "1fc2299e4d0af31c2f7b670d106a00c2",
+  "time" : {
+    "start" : 1758520066653,
+    "stop" : 1758520066903,
+    "duration" : 250
+  },
+  "status" : "broken",
+  "statusMessage" : "json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+  "statusTrace" : "self = <test_get.test_get object at 0x000001E7E86D2B20>\nqqlist = {'qqid': 2586168620}\n\n    @pytest.mark.parametrize(\"qqlist\",yaml_util.yamlUtil().read_extract_yaml(yaml_path=\"/data/test_get.yaml\"))\n    def test_get_qqname2(self,qqlist):\n        url = \"https://api.oioweb.cn/api/qq/nickname\"\n        qqid = qqlist['qqid']\n        data = {\"qq\":qqid}\n        res = requests.request(method=\"get\", url=url, params=data)\n>       res_code = res.json()['code']\n\ntestcases\\test_get.py:26: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nD:\\python\\lib\\site-packages\\requests\\models.py:910: in json\n    return complexjson.loads(self.text, **kwargs)\nD:\\python\\lib\\json\\__init__.py:346: in loads\n    return _default_decoder.decode(s)\nD:\\python\\lib\\json\\decoder.py:337: in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <json.decoder.JSONDecoder object at 0x000001E7E61E7070>\ns = '<html>\\r\\n<head><title>502 Bad Gateway</title></head>\\r\\n<body>\\r\\n<center><h1>502 Bad Gateway</h1></center>\\r\\n<hr><center>nginx</center>\\r\\n</body>\\r\\n</html>\\r\\n'\nidx = 0\n\n    def raw_decode(self, s, idx=0):\n        \"\"\"Decode a JSON document from ``s`` (a ``str`` beginning with\n        a JSON document) and return a 2-tuple of the Python\n        representation and the index in ``s`` where the document ended.\n    \n        This can be used to decode a JSON document from a string that may\n        have extraneous data at the end.\n    \n        \"\"\"\n        try:\n            obj, end = self.scan_once(s, idx)\n        except StopIteration as err:\n>           raise JSONDecodeError(\"Expecting value\", s, err.value) from None\nE           json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\nD:\\python\\lib\\json\\decoder.py:355: JSONDecodeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_get"
+  }, {
+    "name" : "subSuite",
+    "value" : "test_get"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "19556-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_get"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "qqlist",
+    "value" : "{'qqid': 2586168620}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e4f2f49ef9aa301.json",
+  "parameterValues" : [ "{'qqid': 2586168620}" ]
+}

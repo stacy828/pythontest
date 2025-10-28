@@ -1,0 +1,56 @@
+{
+  "uid" : "f210746ed8aa1337",
+  "name" : "test_get_qqname[1234565674]",
+  "fullName" : "testcases.test_get.test_get#test_get_qqname",
+  "historyId" : "92323465e799de073a6f5e9017732537",
+  "time" : {
+    "start" : 1681823916097,
+    "stop" : 1681823916263,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_get"
+  }, {
+    "name" : "subSuite",
+    "value" : "test_get"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "15556-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_get"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "qqid",
+    "value" : "'1234565674'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f210746ed8aa1337.json",
+  "parameterValues" : [ "'1234565674'" ]
+}

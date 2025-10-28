@@ -1,0 +1,12 @@
+pytest~=7.2.1
+pytest-html
+pytest-xdist
+pytest-ordering
+pytest-rerunfailures
+allure-pytest
+PyYAML~=6.0
+selenium~=3.141.0
+requests~=2.32.5
+xToolkit~=0.0.89
+responses~=0.25.8
+jsonpath~=0.82.2

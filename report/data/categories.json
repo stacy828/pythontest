@@ -1,0 +1,161 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "_pytest.fixtures.FixtureLookupError: ('qqid', <FixtureRequest for <Function test_get_qqname>>)",
+      "children" : [ {
+        "name" : "test_get_qqname",
+        "uid" : "ecb8c006a84d1b3c",
+        "parentUid" : "30565e9bb9442d487d88f6f0e7f37420",
+        "status" : "broken",
+        "time" : {
+          "start" : 1681823797898,
+          "stop" : 1681823797898,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30565e9bb9442d487d88f6f0e7f37420"
+    }, {
+      "name" : "TypeError: 'type' object does not support item assignment",
+      "children" : [ {
+        "name" : "test_execute_api[test_info0]",
+        "uid" : "1cf9805ea4044591",
+        "parentUid" : "89ee50dca32c790a121f001e8367cd53",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614692941,
+          "stop" : 1761614693593,
+          "duration" : 652
+        },
+        "flaky" : true,
+        "parameters" : [ "{'描述': '用户登录1', '用例编号': '001', '接口URL': 'http://shop-xo.hctestedu.com/index.php?s=api/user/login', '请求方式': 'POST', 'URL参数': '{\\n    \"application\": \"app\",\\n    \"application_client_type\": \"weixin\"\\n}', 'body参数': '{\\n    \"accounts\":\"huace_xm\",\\n    \"pwd\": 123456,\\n    \"type\": \"username\"\\n}', '预期状态码': 200, '预期返回内容': '', '提取参数': 'token', '需要参数': ''}" ]
+      } ],
+      "uid" : "89ee50dca32c790a121f001e8367cd53"
+    }, {
+      "name" : "AttributeError: 'Template' object has no attribute 'subsititue'",
+      "children" : [ {
+        "name" : "test_execute_api[test_info2]",
+        "uid" : "4d482156f8f9ce75",
+        "parentUid" : "bca062a588f821127745a96deac68eac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614694821,
+          "stop" : 1761614694822,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ "{'描述': '加入购物车', '用例编号': '003', '接口URL': 'http://shop-xo.hctestedu.com/index.php?s=api/cart/save&token=${token}', '请求方式': 'POST', 'URL参数': '{\\n    \"application\": \"app\",\\n    \"application_client_type\": \"qq\"\\n}', 'body参数': '', '预期状态码': '', '预期返回内容': '', '提取参数': '', '需要参数': ''}" ]
+      } ],
+      "uid" : "bca062a588f821127745a96deac68eac"
+    }, {
+      "name" : "Exception: API调用失败：400 Client Error: Bad Request for url: http://shop-xo.hctestedu.com/index.php?s=?application=web&application_client_type=pc&token=token&pid=0",
+      "children" : [ {
+        "name" : "test_api_negative_002",
+        "uid" : "d24c0d5092abb307",
+        "parentUid" : "0a5dd6aa58ed6f29edfc51b0137e9180",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614695441,
+          "stop" : 1761614695443,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a5dd6aa58ed6f29edfc51b0137e9180"
+    }, {
+      "name" : "requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "children" : [ {
+        "name" : "test_get_qqname[2586168620]",
+        "uid" : "3b3806cfb0bc1a83",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614695615,
+          "stop" : 1761614696192,
+          "duration" : 577
+        },
+        "flaky" : true,
+        "parameters" : [ "2586168620" ]
+      }, {
+        "name" : "test_get_qqname[599928887]",
+        "uid" : "18495bd709e14876",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614696324,
+          "stop" : 1761614696644,
+          "duration" : 320
+        },
+        "flaky" : true,
+        "parameters" : [ "599928887" ]
+      }, {
+        "name" : "test_get_qqname[123456783]",
+        "uid" : "d608533bf01c1383",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614696713,
+          "stop" : 1761614696993,
+          "duration" : 280
+        },
+        "flaky" : true,
+        "parameters" : [ "123456783" ]
+      }, {
+        "name" : "test_get_qqname2[qqlist0]",
+        "uid" : "47b002efacd80ca4",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614697053,
+          "stop" : 1761614697337,
+          "duration" : 284
+        },
+        "flaky" : true,
+        "parameters" : [ "{'qqid': 2586168620}" ]
+      }, {
+        "name" : "test_get_qqname2[qqlist1]",
+        "uid" : "e63ecd4a4f7f9b2e",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614697413,
+          "stop" : 1761614697731,
+          "duration" : 318
+        },
+        "flaky" : true,
+        "parameters" : [ "{'qqid': 12345672}" ]
+      }, {
+        "name" : "test_get_qqname2[qqlist2]",
+        "uid" : "4f7d6d4105ef8079",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614697802,
+          "stop" : 1761614698123,
+          "duration" : 321
+        },
+        "flaky" : true,
+        "parameters" : [ "{'qqid': 45612387}" ]
+      }, {
+        "name" : "test_get_qqname2[qqlist3]",
+        "uid" : "ef1d67308ff09c3f",
+        "parentUid" : "0deff55915d4c9ebc746eac29285817c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1761614698192,
+          "stop" : 1761614698515,
+          "duration" : 323
+        },
+        "flaky" : true,
+        "parameters" : [ "{'qqid': 6666785432}" ]
+      } ],
+      "uid" : "0deff55915d4c9ebc746eac29285817c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

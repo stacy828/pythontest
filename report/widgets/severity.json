@@ -1,0 +1,451 @@
+[ {
+  "uid" : "b2817199d9e2c1b0",
+  "name" : "test_call_api_with_connection_error",
+  "time" : {
+    "start" : 1761614695580,
+    "stop" : 1761614695581,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b3ac5a10a463c4e",
+  "name" : "test_case_03",
+  "time" : {
+    "start" : 1761614692881,
+    "stop" : 1761614692881,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8aed98d296d8e856",
+  "name" : "test_call_api_with_timeout_error",
+  "time" : {
+    "start" : 1761614695584,
+    "stop" : 1761614695585,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53bea2cb62229718",
+  "name" : "test_call_api_with_error_status_codes[403-API调用失败：403 Client Error]",
+  "time" : {
+    "start" : 1761614695532,
+    "stop" : 1761614695535,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b3806cfb0bc1a83",
+  "name" : "test_get_qqname[2586168620]",
+  "time" : {
+    "start" : 1761614695615,
+    "stop" : 1761614696192,
+    "duration" : 577
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2fe2a0993a3dcd7f",
+  "name" : "test_error_handling_debug",
+  "time" : {
+    "start" : 1761614702721,
+    "stop" : 1761614703644,
+    "duration" : 923
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cf9805ea4044591",
+  "name" : "test_execute_api[test_info0]",
+  "time" : {
+    "start" : 1761614692941,
+    "stop" : 1761614693593,
+    "duration" : 652
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5f959841f8bdd9c2",
+  "name" : "test_call_api_success",
+  "time" : {
+    "start" : 1761614695592,
+    "stop" : 1761614695596,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3812c4f310c07c6",
+  "name" : "test_call_api_with_error_status_codes[404-API调用失败：404 Client Error]",
+  "time" : {
+    "start" : 1761614695541,
+    "stop" : 1761614695544,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec002fec4a20c73b",
+  "name" : "test_01[c-60]",
+  "time" : {
+    "start" : 1761614692923,
+    "stop" : 1761614692923,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47b002efacd80ca4",
+  "name" : "test_get_qqname2[qqlist0]",
+  "time" : {
+    "start" : 1761614697053,
+    "stop" : 1761614697337,
+    "duration" : 284
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "35027599c054e75",
+  "name" : "test_case_02",
+  "time" : {
+    "start" : 1761614692876,
+    "stop" : 1761614692876,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb03f5d251270728",
+  "name" : "test_01[b-18]",
+  "time" : {
+    "start" : 1761614692912,
+    "stop" : 1761614692912,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f48f36faaff3a17",
+  "name" : "test_call_api_with_error_status_codes[502-API调用失败：502 Server Error]",
+  "time" : {
+    "start" : 1761614695560,
+    "stop" : 1761614695565,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e63ecd4a4f7f9b2e",
+  "name" : "test_get_qqname2[qqlist1]",
+  "time" : {
+    "start" : 1761614697413,
+    "stop" : 1761614697731,
+    "duration" : 318
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3e02f02445049f8a",
+  "name" : "test_call_api_with_error_status_codes[503-API调用失败：503 Server Error]",
+  "time" : {
+    "start" : 1761614695571,
+    "stop" : 1761614695574,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24417ec1d738e3cf",
+  "name" : "test_call_api_with_parameters",
+  "time" : {
+    "start" : 1761614695606,
+    "stop" : 1761614695609,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "665d13e2c1e5bcb0",
+  "name" : "test_01[a-23]",
+  "time" : {
+    "start" : 1761614692900,
+    "stop" : 1761614692900,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf3182eebadcb637",
+  "name" : "test_get_qqname[1234565674]",
+  "time" : {
+    "start" : 1681823954361,
+    "stop" : 1681823954521,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44caa34d128bddf2",
+  "name" : "test_case_01",
+  "time" : {
+    "start" : 1761614692871,
+    "stop" : 1761614692872,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9950472f2baee0e",
+  "name" : "test_call_api_with_different_methods",
+  "time" : {
+    "start" : 1761614695600,
+    "stop" : 1761614695603,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45797a670126222b",
+  "name" : "test_get_request_with_param",
+  "time" : {
+    "start" : 1761614699339,
+    "stop" : 1761614700192,
+    "duration" : 853
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7339e56032ef457",
+  "name" : "test_get_qqname[qqlist0]",
+  "time" : {
+    "start" : 1681825809843,
+    "stop" : 1681825809990,
+    "duration" : 147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e3bc52d39c82016",
+  "name" : "test_post_request",
+  "time" : {
+    "start" : 1761614700196,
+    "stop" : 1761614700928,
+    "duration" : 732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e067ec2b90caaffd",
+  "name" : "test_get_qqname[qqlist2]",
+  "time" : {
+    "start" : 1681825810162,
+    "stop" : 1681825810340,
+    "duration" : 178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18495bd709e14876",
+  "name" : "test_get_qqname[599928887]",
+  "time" : {
+    "start" : 1761614696324,
+    "stop" : 1761614696644,
+    "duration" : 320
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d608533bf01c1383",
+  "name" : "test_get_qqname[123456783]",
+  "time" : {
+    "start" : 1761614696713,
+    "stop" : 1761614696993,
+    "duration" : 280
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f7d6d4105ef8079",
+  "name" : "test_get_qqname2[qqlist2]",
+  "time" : {
+    "start" : 1761614697802,
+    "stop" : 1761614698123,
+    "duration" : 321
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2f9ff624fab1cc28",
+  "name" : "test_error_handling",
+  "time" : {
+    "start" : 1761614700932,
+    "stop" : 1761614702717,
+    "duration" : 1785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecb8c006a84d1b3c",
+  "name" : "test_get_qqname",
+  "time" : {
+    "start" : 1681823797898,
+    "stop" : 1681823797898,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4d482156f8f9ce75",
+  "name" : "test_execute_api[test_info2]",
+  "time" : {
+    "start" : 1761614694821,
+    "stop" : 1761614694822,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b15bffce341e9c7e",
+  "name" : "test_call_api_with_request_exception",
+  "time" : {
+    "start" : 1761614695588,
+    "stop" : 1761614695589,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d24c0d5092abb307",
+  "name" : "test_api_negative_002",
+  "time" : {
+    "start" : 1761614695441,
+    "stop" : 1761614695443,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e097a19382db115",
+  "name" : "测试案例5标题",
+  "time" : {
+    "start" : 1761614692892,
+    "stop" : 1761614692893,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "431cbaf72b16648c",
+  "name" : "test_call_api_with_error_status_codes[401-API调用失败：401 Client Error]",
+  "time" : {
+    "start" : 1761614695523,
+    "stop" : 1761614695526,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7035fb3c89df1f31",
+  "name" : "test_call_api_with_error_status_codes[400-API调用失败：400 Client Error]",
+  "time" : {
+    "start" : 1761614695510,
+    "stop" : 1761614695513,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8b2ca5b3a80f901",
+  "name" : "test_get_request",
+  "time" : {
+    "start" : 1761614698603,
+    "stop" : 1761614699335,
+    "duration" : 732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "add7689f7c00f629",
+  "name" : "test_timeout",
+  "time" : {
+    "start" : 1761614703647,
+    "stop" : 1761614703714,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ec350697748a682",
+  "name" : "test_get_qqname[qqlist1]",
+  "time" : {
+    "start" : 1681825810001,
+    "stop" : 1681825810154,
+    "duration" : 153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f94db7e962a1b66a",
+  "name" : "test_call_api_with_error_status_codes[500-API调用失败：500 Server Error]",
+  "time" : {
+    "start" : 1761614695551,
+    "stop" : 1761614695554,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4afde3b85b9c7b1",
+  "name" : "test_api_001",
+  "time" : {
+    "start" : 1761614694833,
+    "stop" : 1761614695438,
+    "duration" : 605
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef1d67308ff09c3f",
+  "name" : "test_get_qqname2[qqlist3]",
+  "time" : {
+    "start" : 1761614698192,
+    "stop" : 1761614698515,
+    "duration" : 323
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5baaf2798c41c2e",
+  "name" : "test_execute_api[test_info1]",
+  "time" : {
+    "start" : 1761614694150,
+    "stop" : 1761614694817,
+    "duration" : 667
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "427c384724ba185c",
+  "name" : "test_get_qqname[qqlist3]",
+  "time" : {
+    "start" : 1681825810350,
+    "stop" : 1681825810756,
+    "duration" : 406
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9f865bb8b363bac",
+  "name" : "test_case_04",
+  "time" : {
+    "start" : 1761614692886,
+    "stop" : 1761614692887,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

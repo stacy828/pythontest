@@ -1,0 +1,57 @@
+{
+  "uid" : "24417ec1d738e3cf",
+  "name" : "test_call_api_with_parameters",
+  "fullName" : "testcases.test_error_response.TestCallApi#test_call_api_with_parameters",
+  "historyId" : "8f4643232ac2ddcab80af0ae2dcb0b6a",
+  "time" : {
+    "start" : 1761614695606,
+    "stop" : 1761614695609,
+    "duration" : 3
+  },
+  "description" : "测试带参数的调用",
+  "descriptionHtml" : "<p>测试带参数的调用</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_error_response"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCallApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "15580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_error_response"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24417ec1d738e3cf.json",
+  "parameterValues" : [ ]
+}

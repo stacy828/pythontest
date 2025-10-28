@@ -1,0 +1,64 @@
+{
+  "uid" : "d77d908d950d7d24",
+  "name" : "test_case_02",
+  "fullName" : "testcases.test_02.TestClass1#test_case_02",
+  "historyId" : "25826dc8acb808ea34486e4e1b52dd48",
+  "time" : {
+    "start" : 1678195934483,
+    "stop" : 1678195934483,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('open_firefox', <FixtureRequest for <Function test_case_02>>)",
+  "statusTrace" : "file D:\\HUSISI\\pythontest\\testcases\\test_02.py, line 16\n      @pytest.mark.usefixtures('open_firefox')\n      def test_case_02(self):\nE       fixture 'open_firefox' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, include_metadata_in_junit_xml, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, setup, teardown, testrun_uid, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, worker_id\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nD:\\HUSISI\\pythontest\\testcases\\test_02.py:16",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试模块"
+  }, {
+    "name" : "epic",
+    "value" : "epic 总体描述"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('open_firefox')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "16828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('open_firefox')" ]
+  },
+  "source" : "d77d908d950d7d24.json",
+  "parameterValues" : [ ]
+}

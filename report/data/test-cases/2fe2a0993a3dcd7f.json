@@ -1,0 +1,57 @@
+{
+  "uid" : "2fe2a0993a3dcd7f",
+  "name" : "test_error_handling_debug",
+  "fullName" : "testcases.test_placeholder_api.Test_api#test_error_handling_debug",
+  "historyId" : "a283b58220e525e43757e3009a6386e4",
+  "time" : {
+    "start" : 1761614702721,
+    "stop" : 1761614703644,
+    "duration" : 923
+  },
+  "description" : "调试错误处理",
+  "descriptionHtml" : "<p>调试错误处理</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_placeholder_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_api"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "15580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_placeholder_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fe2a0993a3dcd7f.json",
+  "parameterValues" : [ ]
+}

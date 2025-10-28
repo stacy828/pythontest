@@ -1,0 +1,63 @@
+{
+  "uid" : "431cbaf72b16648c",
+  "name" : "test_call_api_with_error_status_codes[401-API调用失败：401 Client Error]",
+  "fullName" : "testcases.test_error_response.TestCallApi#test_call_api_with_error_status_codes",
+  "historyId" : "063914a502201625729a2d4033849cdf",
+  "time" : {
+    "start" : 1761614695523,
+    "stop" : 1761614695526,
+    "duration" : 3
+  },
+  "description" : "测试各种HTTP错误状态码",
+  "descriptionHtml" : "<p>测试各种HTTP错误状态码</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_error_response"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCallApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "15580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_error_response"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_exception_msg",
+    "value" : "'API调用失败：401 Client Error'"
+  }, {
+    "name" : "status_code",
+    "value" : "401"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "431cbaf72b16648c.json",
+  "parameterValues" : [ "'API调用失败：401 Client Error'", "401" ]
+}

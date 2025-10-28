@@ -1,0 +1,83 @@
+{
+  "uid" : "cf3182eebadcb637",
+  "name" : "test_get_qqname[1234565674]",
+  "fullName" : "testcases.test_get.test_get#test_get_qqname",
+  "historyId" : "92323465e799de073a6f5e9017732537",
+  "time" : {
+    "start" : 1681823954361,
+    "stop" : 1681823954521,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_get"
+  }, {
+    "name" : "subSuite",
+    "value" : "test_get"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "14992-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_get"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "qqid",
+    "value" : "1234565674"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f210746ed8aa1337",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681823916097,
+        "stop" : 1681823916263,
+        "duration" : 166
+      }
+    }, {
+      "uid" : "cbb25c00a110b0e4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200",
+      "time" : {
+        "start" : 1681823903356,
+        "stop" : 1681823903486,
+        "duration" : 130
+      }
+    }, {
+      "uid" : "f643c79b151ab0da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681823855141,
+        "stop" : 1681823855278,
+        "duration" : 137
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf3182eebadcb637.json",
+  "parameterValues" : [ "1234565674" ]
+}

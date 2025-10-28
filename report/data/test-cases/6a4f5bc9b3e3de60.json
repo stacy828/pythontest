@@ -1,0 +1,53 @@
+{
+  "uid" : "6a4f5bc9b3e3de60",
+  "name" : "test_get_qqname",
+  "fullName" : "testcases.test_get.test_get#test_get_qqname",
+  "historyId" : "d8dc4b3af75b8581e44ac53a8d62eee8",
+  "time" : {
+    "start" : 1681823541232,
+    "stop" : 1681823541463,
+    "duration" : 231
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_get"
+  }, {
+    "name" : "subSuite",
+    "value" : "test_get"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "17164-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_get"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a4f5bc9b3e3de60.json",
+  "parameterValues" : [ ]
+}

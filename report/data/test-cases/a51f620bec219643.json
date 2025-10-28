@@ -1,0 +1,62 @@
+{
+  "uid" : "a51f620bec219643",
+  "name" : "test_case_04",
+  "fullName" : "testcases.test_02.TestClass1#test_case_04",
+  "historyId" : "0b0a8d3d0b2709fdb621749524304e5d",
+  "time" : {
+    "start" : 1677159670944,
+    "stop" : 1677159670944,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "epic 总体描述"
+  }, {
+    "name" : "feature",
+    "value" : "测试模块"
+  }, {
+    "name" : "story",
+    "value" : "Story1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "19580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a51f620bec219643.json",
+  "parameterValues" : [ ]
+}

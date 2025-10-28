@@ -1,0 +1,169 @@
+{
+  "uid" : "1cf9805ea4044591",
+  "name" : "test_execute_api[test_info0]",
+  "fullName" : "testcases.test_api_auto.Test_request#test_execute_api",
+  "historyId" : "8a808216414e6a5af75eb93cdffdafad",
+  "time" : {
+    "start" : 1761614692941,
+    "stop" : 1761614693593,
+    "duration" : 652
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'type' object does not support item assignment",
+  "statusTrace" : "self = <test_api_auto.Test_request object at 0x000001AC247B78E0>\ntest_info = {'URL参数': '{\\n    \"application\": \"app\",\\n    \"application_client_type\": \"weixin\"\\n}', 'body参数': '{\\n    \"accounts\":\"hu...6,\\n    \"type\": \"username\"\\n}', '接口URL': 'http://shop-xo.hctestedu.com/index.php?s=api/user/login', '描述': '用户登录1', ...}\n\n    @pytest.mark.parametrize(\"test_info\",test_data)\n    def test_execute_api(self,test_info):\n        url = test_info['接口URL']\n        #处理带关联的参数\n        if \"$\" in url:\n            Template(url).subsititue(dict)\n    \n        rs = requests.request(url=test_info['接口URL'],\n                              method=test_info['请求方式'],\n                              params=eval(test_info['URL参数']),\n                              data=eval(test_info['body参数']))\n    \n        print(rs.json())\n        print( rs.json()['code'])\n        # rs_code = rs.json()['code']\n        # assert rs_code == 0\n    \n        # 获取登录接口response中的token\n        # test_info['提取参数']=token\n        if test_info['提取参数']:\n            val = jsonpath.jsonpath(rs.json(),\"$..\"+test_info['提取参数'])\n>           dict[test_info['提取参数']] = val[0]\nE           TypeError: 'type' object does not support item assignment\n\ntestcases\\test_api_auto.py:41: TypeError",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_auto"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_request"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "15580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_api_auto"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_info",
+    "value" : "{'描述': '用户登录1', '用例编号': '001', '接口URL': 'http://shop-xo.hctestedu.com/index.php?s=api/user/login', '请求方式': 'POST', 'URL参数': '{\\n    \"application\": \"app\",\\n    \"application_client_type\": \"weixin\"\\n}', 'body参数': '{\\n    \"accounts\":\"huace_xm\",\\n    \"pwd\": 123456,\\n    \"type\": \"username\"\\n}', '预期状态码': 200, '预期返回内容': '', '提取参数': 'token', '需要参数': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fc84e45997cb8dfb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758522254956,
+        "stop" : 1758522255575,
+        "duration" : 619
+      }
+    }, {
+      "uid" : "bf5768f427cbbf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758522177484,
+        "stop" : 1758522178135,
+        "duration" : 651
+      }
+    }, {
+      "uid" : "b9af443a3b6014fd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"dict\") to str",
+      "time" : {
+        "start" : 1758522161542,
+        "stop" : 1758522162092,
+        "duration" : 550
+      }
+    }, {
+      "uid" : "45774f95dfbde73",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"dict\") to str",
+      "time" : {
+        "start" : 1758522114082,
+        "stop" : 1758522115159,
+        "duration" : 1077
+      }
+    }, {
+      "uid" : "a4e3045a0a6c66a8",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'str' object has no attribute 'code'",
+      "time" : {
+        "start" : 1758522032574,
+        "stop" : 1758522033441,
+        "duration" : 867
+      }
+    }, {
+      "uid" : "fb6e391144329d43",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'Response' object is not subscriptable",
+      "time" : {
+        "start" : 1758521920311,
+        "stop" : 1758521921496,
+        "duration" : 1185
+      }
+    }, {
+      "uid" : "717e79e2953a13a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'Response' object is not subscriptable",
+      "time" : {
+        "start" : 1758521848525,
+        "stop" : 1758521849128,
+        "duration" : 603
+      }
+    }, {
+      "uid" : "c52d6ffca865947c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'Response' object is not subscriptable",
+      "time" : {
+        "start" : 1758521737646,
+        "stop" : 1758521738282,
+        "duration" : 636
+      }
+    }, {
+      "uid" : "86340276cfdf47b5",
+      "status" : "broken",
+      "statusDetails" : "TypeError: the JSON object must be str, bytes or bytearray, not Response",
+      "time" : {
+        "start" : 1758521640271,
+        "stop" : 1758521641005,
+        "duration" : 734
+      }
+    }, {
+      "uid" : "2b1c18993dae718f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: json() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1758521426950,
+        "stop" : 1758521427805,
+        "duration" : 855
+      }
+    }, {
+      "uid" : "f060147233d9a0b8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'Response' object is not subscriptable",
+      "time" : {
+        "start" : 1758521395036,
+        "stop" : 1758521395630,
+        "duration" : 594
+      }
+    }, {
+      "uid" : "d984e5b86a789de3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1758520739543,
+        "stop" : 1758520740071,
+        "duration" : 528
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1cf9805ea4044591.json",
+  "parameterValues" : [ "{'描述': '用户登录1', '用例编号': '001', '接口URL': 'http://shop-xo.hctestedu.com/index.php?s=api/user/login', '请求方式': 'POST', 'URL参数': '{\\n    \"application\": \"app\",\\n    \"application_client_type\": \"weixin\"\\n}', 'body参数': '{\\n    \"accounts\":\"huace_xm\",\\n    \"pwd\": 123456,\\n    \"type\": \"username\"\\n}', '预期状态码': 200, '预期返回内容': '', '提取参数': 'token', '需要参数': ''}" ]
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "add7689f7c00f629",
+  "name" : "test_timeout",
+  "fullName" : "testcases.test_placeholder_api.Test_api#test_timeout",
+  "historyId" : "2efcadb7f0238684620d030e704f5477",
+  "time" : {
+    "start" : 1761614703647,
+    "stop" : 1761614703714,
+    "duration" : 67
+  },
+  "description" : "测试超时处理",
+  "descriptionHtml" : "<p>测试超时处理</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_placeholder_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_api"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "15580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_placeholder_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "add7689f7c00f629.json",
+  "parameterValues" : [ ]
+}

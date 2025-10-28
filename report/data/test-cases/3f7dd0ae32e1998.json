@@ -1,0 +1,56 @@
+{
+  "uid" : "3f7dd0ae32e1998",
+  "name" : "test_execute_api[test_info1]",
+  "fullName" : "testcases.test_api_auto.Test_request#test_execute_api",
+  "historyId" : "fdaafeb9afec16de8762d4e6ec0af50c",
+  "time" : {
+    "start" : 1758522178141,
+    "stop" : 1758522178782,
+    "duration" : 641
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_api_auto"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_request"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "4024-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_api_auto"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_info",
+    "value" : "{'描述': '用户登录', '用例编号': '002', '接口URL': 'http://shop-xo.hctestedu.com/index.php?s=api/user/login', '请求方式': 'POST', 'URL参数': '{\\n    \"application\": \"app\",\\n    \"application_client_type\": \"qq\"\\n}', 'body参数': '{\\n    \"accounts\":\"huace_test_info\",\\n    \"pwd\": 123456,\\n    \"type\": \"username\"\\n}', '预期状态码': 400, '预期返回内容': '', '提取参数': '', '需要参数': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f7dd0ae32e1998.json",
+  "parameterValues" : [ "{'描述': '用户登录', '用例编号': '002', '接口URL': 'http://shop-xo.hctestedu.com/index.php?s=api/user/login', '请求方式': 'POST', 'URL参数': '{\\n    \"application\": \"app\",\\n    \"application_client_type\": \"qq\"\\n}', 'body参数': '{\\n    \"accounts\":\"huace_test_info\",\\n    \"pwd\": 123456,\\n    \"type\": \"username\"\\n}', '预期状态码': 400, '预期返回内容': '', '提取参数': '', '需要参数': ''}" ]
+}

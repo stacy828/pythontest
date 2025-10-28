@@ -1,0 +1,63 @@
+{
+  "uid" : "7035fb3c89df1f31",
+  "name" : "test_call_api_with_error_status_codes[400-API调用失败：400 Client Error]",
+  "fullName" : "testcases.test_error_response.TestCallApi#test_call_api_with_error_status_codes",
+  "historyId" : "59811a3be45070070a0e0b8905b59817",
+  "time" : {
+    "start" : 1761614695510,
+    "stop" : 1761614695513,
+    "duration" : 3
+  },
+  "description" : "测试各种HTTP错误状态码",
+  "descriptionHtml" : "<p>测试各种HTTP错误状态码</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_error_response"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCallApi"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "15580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_error_response"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected_exception_msg",
+    "value" : "'API调用失败：400 Client Error'"
+  }, {
+    "name" : "status_code",
+    "value" : "400"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7035fb3c89df1f31.json",
+  "parameterValues" : [ "'API调用失败：400 Client Error'", "400" ]
+}

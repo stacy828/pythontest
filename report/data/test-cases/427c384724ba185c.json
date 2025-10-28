@@ -1,0 +1,66 @@
+{
+  "uid" : "427c384724ba185c",
+  "name" : "test_get_qqname[qqlist3]",
+  "fullName" : "testcases.test_get.test_get#test_get_qqname",
+  "historyId" : "47a3d2ae99b680a073f1e764e37d93bd",
+  "time" : {
+    "start" : 1681825810350,
+    "stop" : 1681825810756,
+    "duration" : 406
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_get"
+  }, {
+    "name" : "subSuite",
+    "value" : "test_get"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "13236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_get"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "qqlist",
+    "value" : "{'qqid': 6666785432}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cfd1b300ef795315",
+      "status" : "passed",
+      "time" : {
+        "start" : 1681825780751,
+        "stop" : 1681825782119,
+        "duration" : 1368
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "427c384724ba185c.json",
+  "parameterValues" : [ "{'qqid': 6666785432}" ]
+}

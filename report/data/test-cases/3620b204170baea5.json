@@ -1,0 +1,89 @@
+{
+  "uid" : "3620b204170baea5",
+  "name" : "test_case_02",
+  "fullName" : "testcases.test_02.TestClass1#test_case_02",
+  "historyId" : "25826dc8acb808ea34486e4e1b52dd48",
+  "time" : {
+    "start" : 1677158788747,
+    "stop" : 1677158788748,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "open_firefox",
+    "time" : {
+      "start" : 1677158788747,
+      "stop" : 1677158788747,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "open_firefox::0",
+    "time" : {
+      "start" : 1677158788748,
+      "stop" : 1677158788748,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试feature1"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('open_firefox')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_02"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SQEMBVG"
+  }, {
+    "name" : "thread",
+    "value" : "14840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('open_firefox')" ]
+  },
+  "source" : "3620b204170baea5.json",
+  "parameterValues" : [ ]
+}
